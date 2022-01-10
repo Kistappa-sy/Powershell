@@ -1,0 +1,18 @@
+set-locaton c:\ or c\ : to set your work-directory to c drive
+get-childitem or dir or ls :  to list your all directories and files in current working directory
+clear-host or cls or clear: to clear your terminal
+get-alias or gal: to list all the alias name of powershell commands 
+ipconfig /all : to get full info 
+gal g* : list all the alias which will start with 'g'
+gal *sv : list all the alias which will end with 'sv'
+update-help --Force : downloading latest update on help command fro internet
+get-help *service* : list all the commands which has service
+get-help n*azurevm* : list all the commands which has prefix n and contains azurevm
+get-verb : will list all the verbs are used in powershell
+get-verb | measure : will give you the count of verbs in powershell
+get-help get-service -online : it will dispaly your help details in your browser
+get-help get-service -showwindow : which will show the help section in different window
+Get-Host | Select-Object Version : to check powershell Version
+get-help about* : to know more about the command
+get-adcomputer -filter * | select -Property name, @{name='ComputerName';expression={$_.name}} : 
+to match the expression

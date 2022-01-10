@@ -1,0 +1,7 @@
+ UNIX : document oriented operating system, here lots management iscdone through documents/files.
+ Windows : API oriented operating system.
+
+ Some of the linux commands work in powershell
+
+ Powershell will help us to run windows native commands, means you can open any application by typing its 
+ name in the console
