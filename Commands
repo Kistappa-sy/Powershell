@@ -5,7 +5,7 @@ get-alias or gal: to list all the alias name of powershell commands
 ipconfig /all : to get full info 
 gal g* : list all the alias which will start with 'g'
 gal *sv : list all the alias which will end with 'sv'
-update-help --Force : downloading latest update on help command fro internet
+update-help -Force : downloading latest update on help command fro internet
 get-help *service* : list all the commands which has service
 get-help n*azurevm* : list all the commands which has prefix n and contains azurevm
 get-verb : will list all the verbs are used in powershell
@@ -16,3 +16,5 @@ Get-Host | Select-Object Version : to check powershell Version
 get-help about* : to know more about the command
 get-adcomputer -filter * | select -Property name, @{name='ComputerName';expression={$_.name}} : 
 to match the expression
+Unblock-File *\* -verbose : to remove the security restrictions of powershell files.
+
